@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #0F2027, #2C5364);
+  color: white;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  /* 移动端适配样式 */
+}
